@@ -5,11 +5,8 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/canarias.png';
 import { Link } from 'react-scroll';
 
@@ -18,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0768a0] text-[#fff]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#20BCFC] text-[#fff]'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '50px'}} className='border-solid border-2 border-[#fff]'/>
       </div>
@@ -26,27 +23,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             About
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skills' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='work' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Work
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Contact
           </Link>
         </li>
@@ -62,35 +59,35 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#20BCFC] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='about' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             About
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='work' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Work
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='contact' smooth={true} duration={500} className='hover:text-[#FEDE4F]'>
             Contact
           </Link>
         </li>
@@ -99,36 +96,30 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#0e76a8]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              className='flex justify-between items-center w-full text-[#fff]'
+              href='https://www.linkedin.com/in/juan-manuel-frontend-developer/'
+              Target='_blank'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#171515]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              className='flex justify-between items-center w-full text-[#fff]'
+              href='https://github.com/Noone6999'
+              Target='_blank'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#5dc1b9]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              className='flex justify-between items-center w-full text-[#fff]'
+              href='#contact'
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
