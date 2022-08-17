@@ -31,12 +31,14 @@ const Work = () => {
               <div className='pt-8'>
                 <a href='/'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    <a href="https://web-design-html-css-ja.netlify.app/" Target='_blank'>Demo</a>
                   </button>
                 </a>
                 <a href='/'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    <a href="https://github.com/Noone6999/Web-Design-" Target='_blank'>
+                      Code
+                    </a>
                   </button>
                 </a>
               </div>
@@ -54,7 +56,9 @@ const Work = () => {
               <div className='pt-8'>
                 <a href='/'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    <a href="https://isnt-noone6999-awesome.netlify.app/" Target='_blank'>
+                      Demo
+                    </a>
                   </button>
                 </a>
                 <a href='/'>

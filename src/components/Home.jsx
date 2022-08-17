@@ -24,7 +24,9 @@ const Home = () => {
               View Work
             </a>
             <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
+              <a href='#work'>
+               <HiArrowNarrowRight className='ml-3 ' />
+              </a>
             </span>
           </button>
           
