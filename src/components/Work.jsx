@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
 import jsPage from '../assets/paginaweb.jpg';
 import citasReact from '../assets/CitasReact.png'
+import criptoProject from '../assets/cripto_project.png'
 
 const Work = () => {
   return (
@@ -29,21 +29,20 @@ const Work = () => {
                 JS Web
               </span>
               <div className='pt-8'>
-                <a href='/'>
+                <a href='https://web-design-html-css-ja.netlify.app/' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    <a href="https://web-design-html-css-ja.netlify.app/" Target='_blank'>Demo</a>
+                    Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/Noone6999/Web-Design-' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    <a href="https://github.com/Noone6999/Web-Design-" Target='_blank'>
-                      Code
-                    </a>
+                    Code
                   </button>
                 </a>
               </div>
             </div>
           </div>
+            {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${ citasReact})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -54,63 +53,12 @@ const Work = () => {
                 React JS Web
               </span>
               <div className='pt-8'>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    <a href="https://isnt-noone6999-awesome.netlify.app/" Target='_blank'>
-                      Demo
-                    </a>
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    <a href="https://github.com/Noone6999/citas_react_vite" Target='_blank'>
-                      Code
-                    </a>
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-            {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS web
-              </span>
-              <div className='pt-8'>
-                <a href='/'>
+                <a href='https://isnt-noone6999-awesome.netlify.app/' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${jsPage})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS web
-              </span>
-              <div className='pt-8'>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
+                <a href='https://github.com/Noone6999/citas_react_vite' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -120,44 +68,21 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${jsPage})` }}
+            style={{ backgroundImage: `url(${criptoProject})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Web
+                React JS web
               </span>
               <div className='pt-8'>
-                <a href='/'>
+                <a href='https://crypto-exchange-price.netlify.app/' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${jsPage})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Web
-              </span>
-              <div className='pt-8'>
-                <a href='/'>
-                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
+                <a href='https://github.com/Noone6999/Crypto-Exchange-Price' Target='_blank'>
                   <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

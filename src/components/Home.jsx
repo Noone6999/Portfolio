@@ -14,21 +14,20 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#20BCFC]'>
           Front-End Developer.
         </h2>
-        <p className='text-[#fff] py-4 max-w-[700px]'>
+        <p className='text-[#fff] py-4 max-w-[700px] font-normal'>
         I am a front-end developer from Tenerife, Spain specialized in creating responsive and interactive web pages.
         </p>
         <div>
-
-          <button className='text-[#20BCFC] group border-2 px-6 py-3 my-2 flex items-center bg-[#ffcc00] border-[#ffcc00]'>
-            <a href="#work">
-              View Work
-            </a>
+        
+        <a href="#work">
+          <button className='text-[#20BCFC] group border-2 px-6 py-3 my-2 flex items-center bg-[#ffcc00] border-[#ffcc00]'> View Work
             <span className='group-hover:rotate-90 duration-300'>
               <a href='#work'>
                <HiArrowNarrowRight className='ml-3 ' />
               </a>
             </span>
           </button>
+        </a>
           
         </div>
         </div>
